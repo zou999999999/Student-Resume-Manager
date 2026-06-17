@@ -1,0 +1,32 @@
+# Build directories
+BDT220_独立运行包/
+jczou/
+build/
+debug/
+release/
+combine.test/tests/release/
+combine.test/tests/Makefile*
+combine.test/tests/*.o
+combine.test/tests/*.stash
+
+# Makefiles and intermediate build files
+Makefile
+Makefile.Debug
+Makefile.Release
+*.o
+*.obj
+*.stash
+*.user
+ui_mainwindow.h
+
+# Test artifacts
+邹建成_项目统筹与集成拼接/resume_sample_output.pdf
+邹建成_项目统筹与集成拼接/resume_sample_output.docx
+邹建成_项目统筹与集成拼接/test_results.log
+邹建成_项目统筹与集成拼接/run_output.txt
+test_log.txt
+test_out.docx
+
+# Temp files
+temp_resume_data.json
+resume_data.json
