@@ -1,0 +1,45 @@
+{
+  "fullName": "张三",
+  "contact": "139-8888-6666 / zhangsan@mail.com",
+  "targetJob": "C++ 研发工程师",
+  "skills": "1. 编程语言：精通 C++，熟练掌握 Python、Go；\n2. 框架技术：熟练应用 Qt 核心库（Widgets / PrintSupport）、STL 容器、多线程高并发编程；\n3. 荣誉奖项：\n     2025年 全国大学生计算机设计大赛 一等奖\n     2024年 国家奖学金\n     2023年 校级优秀学生干部、一等奖学金",
+  "finalGpa": 90.5,
+  "courses": [
+    { "name": "高等数学 (上)", "credit": 4.0, "grade": 95.0 },
+    { "name": "线性代数", "credit": 3.0, "grade": 92.0 },
+    { "name": "大学物理", "credit": 3.5, "grade": 88.0 },
+    { "name": "C++程序设计", "credit": 4.0, "grade": 96.0 },
+    { "name": "数据结构与算法", "credit": 4.0, "grade": 94.0 },
+    { "name": "计算机组成原理", "credit": 3.0, "grade": 87.0 },
+    { "name": "操作系统", "credit": 3.0, "grade": 90.0 },
+    { "name": "计算机网络", "credit": 3.0, "grade": 89.0 },
+    { "name": "数据库系统原理", "credit": 3.0, "grade": 91.0 },
+    { "name": "软件工程导论", "credit": 2.0, "grade": 85.0 }
+  ],
+  "experiences": [
+    {
+      "type": "internship",
+      "title": "C++ 软件开发实习生",
+      "organization": "百度在线网络技术有限公司",
+      "startDate": "2025-01-01",
+      "endDate": "2025-06-30",
+      "description": "1. 参与百度搜索核心推荐引擎模块的 C++ 代码重构与接口升级，代码质量高；\n2. 编写高性能数据解析接口，将大文本 JSON 反序列化延迟降低了 12%；\n3. 编写自动化单元测试，设计了 20 组边界压力测试用例，覆盖率提升至 95%。"
+    },
+    {
+      "type": "internship",
+      "title": "客户端开发实习生",
+      "organization": "腾讯科技 (深圳) 有限公司",
+      "startDate": "2024-07-01",
+      "endDate": "2024-12-31",
+      "description": "1. 负责桌面客户端界面模块的开发与排布，使用 C++ 与 Qt Widgets 框架进行交互升级；\n2. 优化列表渲染流畅度，通过异步加载技术，解决超长数据流阻塞 GUI 线程的问题。"
+    },
+    {
+      "type": "project",
+      "title": "基于 Qt 6 的分布式学业管理系统",
+      "organization": "校级重点科研项目",
+      "startDate": "2023-09-01",
+      "endDate": "2024-06-15",
+      "description": "1. 作为项目负责人，主导了基于 C++17 与 Qt 6 的跨平台桌面管理工具设计；\n2. 实现了底层 MVC 架构的数据流转，编写了本地 JSON 编码器与矢量打印引擎；\n3. 开发独立自检启动脚本，解决在干净机器上双击运行的兼容性难题。"
+    }
+  ]
+}
