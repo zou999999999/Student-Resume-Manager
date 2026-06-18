@@ -1,0 +1,41 @@
+{
+  "fullName": "张三",
+  "contact": "(+86)13800000000 | zhangsan@example.com",
+  "targetJob": "软件开发工程师",
+  "skills": "CET-6、计算机二级、熟练掌握 C++/Qt/Python、Git 版本控制、Linux 基础操作",
+  "finalGpa": 3.55,
+  "courses": [
+    {"name": "C++ 程序设计", "credit": 4.0, "grade": 92.0},
+    {"name": "数据结构", "credit": 4.0, "grade": 88.5},
+    {"name": "高等数学", "credit": 5.0, "grade": 85.0},
+    {"name": "线性代数", "credit": 3.0, "grade": 78.0},
+    {"name": "大学英语", "credit": 2.0, "grade": 90.0},
+    {"name": "操作系统", "credit": 4.0, "grade": 82.0}
+  ],
+  "experiences": [
+    {
+      "type": "internship",
+      "title": "C++ 软件开发实习生",
+      "organization": "ABC 科技有限公司",
+      "startDate": "2024-07-01",
+      "endDate": "2024-09-01",
+      "description": "参与公司核心产品 Qt 客户端开发，负责模块重构与单元测试编写，累计修复 Bug 20+ 个"
+    },
+    {
+      "type": "project",
+      "title": "学生成绩管理系统",
+      "organization": "课程设计",
+      "startDate": "2024-03-01",
+      "endDate": "2024-06-01",
+      "description": "基于 Qt/C++ 开发的全栈桌面应用，支持课程录入、GPA 计算、数据持久化与报表导出一体化"
+    },
+    {
+      "type": "activity",
+      "title": "ACM 集训队队员",
+      "organization": "计算机学院",
+      "startDate": "2022-09-01",
+      "endDate": "2024-12-01",
+      "description": "参加 ACM-ICPC 算法训练，在团队中负责数据结构与图论题的求解，获省级银奖"
+    }
+  ]
+}
